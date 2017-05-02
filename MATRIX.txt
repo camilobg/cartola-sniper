@@ -1,0 +1,204 @@
+
+'{"atletas":
+[
+{"nome":"Ernando Rodrigues Lopes","apelido":"Ernando","foto":"https://s.glbimg.com/es/sde/f/2016/04/30/4281780d649686f58d2350aa3f372023_FORMATO.png","atleta_id":49651,"rodada_id":9,"clube_id":285,"posicao_id":3,"status_id":7,"pontos_num":0,"preco_num":11.82,"variacao_num":0.41,"media_num":4.68,"jogos_num":9,"partida":{"clube_casa_id":294,"clube_casa_posicao":16,"clube_visitante_id":285,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":2,"partida_data":"2016-06-23 21:30:00","local":"Couto Pereira","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"A":1,"CA":1,"FC":8,"FD":1,"FF":2,"FS":1,"G":1,"PE":16,"RB":7,"SG":5}},
+{"nome":"Jean Raphael Vanderlei Moreira","apelido":"Jean","foto":"https://s.glbimg.com/es/sde/f/2016/05/01/35cbb038a295b3d40644676a8319a4fe_FORMATO.png","atleta_id":62047,"rodada_id":9,"clube_id":275,"posicao_id":4,"status_id":7,"pontos_num":0,"preco_num":12.37,"variacao_num":2.15,"media_num":4.64,"jogos_num":9,"partida":{"clube_casa_id":275,"clube_casa_posicao":1,"clube_visitante_id":327,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":20,"partida_data":"2016-06-21 21:30:00","local":"Arena Palmeiras","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"A":1,"CA":1,"FC":13,"FD":2,"FF":5,"FS":3,"G":2,"PE":22,"RB":17}},
+{"nome":"Rodrigo Caio Roquette Russo","apelido":"Rodrigo Caio","foto":"https://s.glbimg.com/es/sde/f/2016/05/01/76c4acf534a1a01c922cb927acebb6e7_FORMATO.png","atleta_id":73800,"rodada_id":9,"clube_id":276,"posicao_id":3,"status_id":2,"pontos_num":0,"preco_num":10.36,"variacao_num":-4.64,"media_num":-6.1,"jogos_num":1,"partida":{"clube_casa_id":276,"clube_casa_posicao":5,"clube_visitante_id":292,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":17,"partida_data":"2016-06-23 21:00:00","local":"Morumbi","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"FC":3,"GC":1,"PE":1,"RB":1}},
+{"nome":"Thiago dos Santos","apelido":"Thiago Santos","foto":"https://s.glbimg.com/es/sde/f/2016/05/01/a0829f0801ed8f6ec3f080d37c905d4f_FORMATO.png","atleta_id":78855,"rodada_id":9,"clube_id":275,"posicao_id":4,"status_id":7,"pontos_num":0,"preco_num":5.28,"variacao_num":0.57,"media_num":3.46,"jogos_num":5,"partida":{"clube_casa_id":275,"clube_casa_posicao":1,"clube_visitante_id":327,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":20,"partida_data":"2016-06-21 21:30:00","local":"Arena Palmeiras","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"CA":2,"FC":11,"FS":6,"G":1,"PE":4,"RB":10}},
+{"nome":"Matheus Simonete Bressanelli","apelido":"Bressan","foto":"https://s.glbimg.com/es/sde/f/2016/04/30/64171a15302ae76f8b924c5e7bbad3b5_FORMATO.png","atleta_id":72491,"rodada_id":9,"clube_id":284,"posicao_id":3,"status_id":7,"pontos_num":0,"preco_num":8.47,"variacao_num":1.12,"media_num":5.62,"jogos_num":5,"partida":{"clube_casa_id":284,"clube_casa_posicao":3,"clube_visitante_id":287,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":15,"partida_data":"2016-06-23 19:15:00","local":"Arena do Grêmio","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"A":1,"FC":3,"FS":2,"PE":11,"RB":7,"SG":3}},
+{"nome":"Vitor Frezarin Bueno","apelido":"Vitor Bueno","foto":"https://s.glbimg.com/es/sde/f/2016/05/01/6a51ac71a5e8a928c9cf1b71c2db243b_FORMATO.png","atleta_id":87552,"rodada_id":9,"clube_id":277,"posicao_id":4,"status_id":7,"pontos_num":0,"preco_num":10.84,"variacao_num":-1.24,"media_num":5.26,"jogos_num":9,"partida":{"clube_casa_id":266,"clube_casa_posicao":11,"clube_visitante_id":277,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":8,"partida_data":"2016-06-22 21:45:00","local":"Kléber Andrade","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"CA":2,"FC":10,"FD":6,"FF":6,"FS":12,"FT":1,"G":4,"PE":41,"RB":10}},
+{"nome":"Alexi Stival","apelido":"Cuca","foto":"https://s.glbimg.com/es/sde/f/2016/05/01/ffe92c9e05e8100cdb59ce176a5352f5_FORMATO.png","atleta_id":42411,"rodada_id":9,"clube_id":275,"posicao_id":6,"status_id":7,"pontos_num":0,"preco_num":13.87,"variacao_num":0.73,"media_num":4.11,"jogos_num":9,"partida":{"clube_casa_id":275,"clube_casa_posicao":1,"clube_visitante_id":327,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":20,"partida_data":"2016-06-21 21:30:00","local":"Arena Palmeiras","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{}},
+{"nome":"Jonatan Ezequiel Cristaldo","apelido":"Cristaldo","foto":"https://s.glbimg.com/es/sde/f/2016/05/01/9fad411cf18bdd76682bcfa1065f111a_FORMATO.png","atleta_id":87420,"rodada_id":9,"clube_id":275,"posicao_id":5,"status_id":7,"pontos_num":0,"preco_num":3.6,"variacao_num":-1.21,"media_num":3.35,"jogos_num":2,"partida":{"clube_casa_id":275,"clube_casa_posicao":1,"clube_visitante_id":327,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":20,"partida_data":"2016-06-21 21:30:00","local":"Arena Palmeiras","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"FC":1,"G":1,"I":1,"PE":1}},
+{"nome":"Felipe Azevedo dos Santos","apelido":"Felipe Azevedo","foto":"https://s.glbimg.com/es/sde/f/2016/05/01/b65f07ed24924fb1d54139f6b07a0ec5_FORMATO.png","atleta_id":60825,"rodada_id":9,"clube_id":303,"posicao_id":5,"status_id":7,"pontos_num":0,"preco_num":16.32,"variacao_num":-1.32,"media_num":6.41,"jogos_num":8,"partida":{"clube_casa_id":303,"clube_casa_posicao":10,"clube_visitante_id":283,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":19,"partida_data":"2016-06-22 19:30:00","local":"Moisés Lucarelli","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"A":1,"FC":6,"FD":2,"FF":9,"FS":20,"G":4,"GC":1,"I":2,"PE":31,"RB":9}},
+{"nome":"Roberto Junior Fernández Torres","apelido":"Gatito Fernández","foto":"https://s.glbimg.com/es/sde/f/2016/04/29/9fb2711aff734db5e097a8c785f181cf_FORMATO.png","atleta_id":74061,"rodada_id":9,"clube_id":316,"posicao_id":1,"status_id":7,"pontos_num":0,"preco_num":6.01,"variacao_num":0,"media_num":4.11,"jogos_num":7,"partida":{"clube_casa_id":263,"clube_casa_posicao":18,"clube_visitante_id":316,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":12,"partida_data":"2016-06-22 21:00:00","local":"Municipal Juiz de Fora","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"CA":1,"CV":1,"DD":14,"FS":2,"GS":8,"PE":4,"SG":2}},
+{"nome":"Luan Guilherme de Jesus Vieira","apelido":"Luan","foto":"https://s.glbimg.com/es/sde/f/2016/04/30/48dd7ee31224c5846fad2dbe7a73178c_FORMATO.png","atleta_id":86759,"rodada_id":9,"clube_id":284,"posicao_id":5,"status_id":7,"pontos_num":0,"preco_num":21.14,"variacao_num":1.58,"media_num":9.67,"jogos_num":8,"partida":{"clube_casa_id":284,"clube_casa_posicao":3,"clube_visitante_id":287,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":15,"partida_data":"2016-06-23 19:15:00","local":"Arena do Grêmio","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"A":1,"CA":3,"FC":12,"FD":6,"FF":8,"FS":25,"FT":2,"G":5,"I":1,"PE":39,"RB":15}},
+{"nome":"Fábio Gonçalves","apelido":"Fabinho","foto":"https://s.glbimg.com/es/sde/f/2016/05/10/41bf16a10372662163a828bfbe7880d6_FORMATO.png","atleta_id":80393,"rodada_id":9,"clube_id":285,"posicao_id":4,"status_id":7,"pontos_num":0,"preco_num":8.48,"variacao_num":0.71,"media_num":4.46,"jogos_num":8,"partida":{"clube_casa_id":294,"clube_casa_posicao":16,"clube_visitante_id":285,"aproveitamento_mandante":["","","","",""],"aproveitamento_visitante":["","","","",""],"clube_visitante_posicao":2,"partida_data":"2016-06-23 21:30:00","local":"Couto Pereira","valida":true,"placar_oficial_mandante":null,"placar_oficial_visitante":null,"url_confronto":"","url_transmissao":""},"scout":{"FC":13,"FD":2,"FF":1,"FS":18,"I":2,"PE":14,"RB":21}}
+],
+
+
+"clubes":
+{
+"262":{"id":262,"nome":"Flamengo","abreviacao":"FLA","posicao":6,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/flamengo_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/flamengo_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/flamengo_30x30.png"}},
+"263":{"id":263,"nome":"Botafogo","abreviacao":"BOT","posicao":18,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/botafogo_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/botafogo_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/botafogo_30x30.png"}},
+"264":{"id":264,"nome":"Corinthians","abreviacao":"COR","posicao":4,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/corinthians_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/corinthians_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/corinthians_30x30.png"}},
+"266":{"id":266,"nome":"Fluminense","abreviacao":"FLU","posicao":11,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2015/07/21/fluminense_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2015/07/21/fluminense_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2015/07/21/Fluminense-escudo.png"}},
+"275":{"id":275,"nome":"Palmeiras","abreviacao":"PAL","posicao":1,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/palmeiras_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/palmeiras_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/palmeiras_30x30.png"}},
+"276":{"id":276,"nome":"São Paulo","abreviacao":"SAO","posicao":5,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/sao_paulo_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/sao_paulo_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/sao_paulo_30x30.png"}},
+"277":{"id":277,"nome":"Santos","abreviacao":"SAN","posicao":8,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/santos_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/santos_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/santos_30x30.png"}},
+"282":{"id":282,"nome":"Atlético-MG","abreviacao":"ATL","posicao":14,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/atletico_mg_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/atletico_mg_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/atletico_mg_30x30.png"}},
+"283":{"id":283,"nome":"Cruzeiro","abreviacao":"CRU","posicao":19,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2015/04/29/cruzeiro_65.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2015/04/29/cruzeiro_45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2015/04/29/cruzeiro_30.png"}},
+"284":{"id":284,"nome":"Grêmio","abreviacao":"GRE","posicao":3,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/gremio_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/gremio_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/gremio_30x30.png"}},
+"285":{"id":285,"nome":"Internacional","abreviacao":"INT","posicao":2,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2016/05/03/inter65.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2016/05/03/inter45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2016/05/03/inter30.png"}},
+"287":{"id":287,"nome":"Vitória","abreviacao":"VIT","posicao":15,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/vitoria_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/vitoria_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/vitoria_30x30.png"}},
+"292":{"id":292,"nome":"Sport","abreviacao":"SPO","posicao":17,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport65.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2015/07/21/sport30.png"}},
+"293":{"id":293,"nome":"Atlético-PR","abreviacao":"ATL","posicao":9,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2015/06/24/atletico-pr_2015_65.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2015/06/24/atletico-pr_2015_45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2015/06/24/atletico-pr_2015_30.png"}},
+"294":{"id":294,"nome":"Coritiba","abreviacao":"COR","posicao":16,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/coritiba_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/coritiba_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/coritiba_30x30.png"}},
+"303":{"id":303,"nome":"Ponte Preta","abreviacao":"PON","posicao":10,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/ponte_preta_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/ponte_preta_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/ponte_preta_30x30.png"}},
+"315":{"id":315,"nome":"Chapecoense","abreviacao":"CHA","posicao":7,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2015/08/03/Escudo-Chape-165.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2015/08/03/Escudo-Chape-145.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2015/08/03/Escudo-Chape-130.png"}},
+"316":{"id":316,"nome":"Figueirense","abreviacao":"FIG","posicao":12,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/figueirense_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/figueirense_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/figueirense_30x30.png"}},
+"327":{"id":327,"nome":"América-MG","abreviacao":"AME","posicao":20,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/equipes/2016/06/08/America-MG_65_YAXGu0v.png","45x45":"https://s.glbimg.com/es/sde/f/equipes/2016/06/08/America-MG_45_10JJfa5.png","30x30":"https://s.glbimg.com/es/sde/f/equipes/2016/06/08/America-MG_30_Dp4rFYO.png"}},
+"344":{"id":344,"nome":"Santa Cruz","abreviacao":"STC","posicao":13,"escudos":{"60x60":"https://s.glbimg.com/es/sde/f/organizacoes/2014/04/14/santa_cruz_60x60.png","45x45":"https://s.glbimg.com/es/sde/f/organizacoes/2014/04/14/santa_cruz_45x45.png","30x30":"https://s.glbimg.com/es/sde/f/organizacoes/2014/04/14/santa_cruz_30x30.png"}}
+},
+
+"posicoes":
+{
+"1":{"id":1,"nome":"Goleiro","abreviacao":"gol"},
+"2":{"id":2,"nome":"Lateral","abreviacao":"lat"},
+"3":{"id":3,"nome":"Zagueiro","abreviacao":"zag"},
+"4":{"id":4,"nome":"Meia","abreviacao":"mei"},
+"5":{"id":5,"nome":"Atacante","abreviacao":"ata"},
+"6":{"id":6,"nome":"Técnico","abreviacao":"tec"}
+},
+
+"status":
+{
+"2":{"id":2,"nome":"Dúvida"},
+"3":{"id":3,"nome":"Suspenso"},
+"5":{"id":5,"nome":"Contundido"},
+"6":{"id":6,"nome":"Nulo"},
+"7":{"id":7,"nome":"Provável"}
+},
+
+"time":
+{
+"time_id":1031627,"clube_id":267,"esquema_id":1,"cadun_id":35981038,"facebook_id":10152370829821303,"foto_perfil":"https://graph.facebook.com/v2.2/10152370829821303/picture?width=100\u0026height=100","nome":"A A Santa Monica","nome_cartola":"Camilo","slug":"a-a-santa-monica","tipo_escudo":2,"cor_fundo_escudo":"063780","cor_borda_escudo":"000000","cor_primaria_estampa_escudo":"ffffff","cor_secundaria_estampa_escudo":"063780","url_escudo_svg":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/escudo/003598103820160506223045","url_escudo_png":"https://s2.glbimg.com/cuKbkskDSpwNMn3bOPHygdFPEzA=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/escudo/003598103820160506223045","url_camisa_svg":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/camisa/003598103820160506223045","url_camisa_png":"https://s2.glbimg.com/7wtgni5gOebWdSGdvR7fWEmqlXg=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/camisa/003598103820160506223045","url_escudo_placeholder_png":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/escudo.png","url_camisa_placeholder_png":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/camisa.png","tipo_estampa_escudo":2,"tipo_adorno":1,"tipo_camisa":1,"tipo_estampa_camisa":3,"cor_camisa":"063780","cor_primaria_estampa_camisa":"ffffff","cor_secundaria_estampa_camisa":"000000","assinante":false,"cadastro_completo":true,"patrocinador1_id":62,"patrocinador2_id":63},"patrimonio":133.1,"esquema_id":3,"pontos":67.68000030517578,"valor_time":128.56,"rodada_atual":10}';
+
+
+
+-----------------------------------------------------------------------------------
+
+
+'{
+
+"atletas":[
+
+	{"nome":"Vanderlei Farias da Silva",
+	"apelido":"Vanderlei",
+	"foto":"https://s.glbimg.com/es/sde/f/2016/05/01/82e0b04b2f7623a1d61ffaff2e36a59c_FORMATO.png",
+	"atleta_id":62121,
+	"rodada_id":6,
+	"clube_id":284,
+	"posicao_id":1,
+	"status_id":7,
+	"pontos_num":8.7,
+	"preco_num":11.21,
+	"variacao_num":1.24,
+	"media_num":2.53,
+	"jogos_num":6,
+	"partida":{
+		"clube_casa_id":277,
+		"clube_casa_posicao":11,
+		"clube_visitante_id":263,
+		"aproveitamento_mandante":["","","","",""],
+		"aproveitamento_visitante":["","","","",""],
+		"clube_visitante_posicao":20,
+		"partida_data":"2016-06-05 11:00:00",
+		"local":"Pacaembu",
+		"valida":true,
+		"placar_oficial_mandante":null,
+		"placar_oficial_visitante":null,
+		"url_confronto":"",
+		"url_transmissao":""
+	},
+	"scout":{"DD":7,"FS":3,"GS":6,"PE":1,"SG":1}
+},
+
+	{"nome":"José Carlos Cracco Neto",
+	"apelido":"Zeca",
+	"foto":"https://s.glbimg.com/es/sde/f/2016/05/01/b75497cbd7fdf4e7cc56e0a77979a9f7_FORMATO.png",
+	"atleta_id":87192,
+	"rodada_id":6,
+	"clube_id":285,
+	"posicao_id":2,
+	"status_id":7,
+	"pontos_num":8.3,
+	"preco_num":9.27,
+	"variacao_num":2.19,
+	"media_num":2.2,
+	"jogos_num":6,
+	"partida":{
+		"clube_casa_id":277,
+		"clube_casa_posicao":11,
+		"clube_visitante_id":263,
+		"aproveitamento_mandante":["","","","",""],
+		"aproveitamento_visitante":["","","","",""],
+		"clube_visitante_posicao":20,
+		"partida_data":"2016-06-05 11:00:00",
+		"local":"Pacaembu",
+		"valida":true,
+		"placar_oficial_mandante":null,
+		"placar_oficial_visitante":null,
+		"url_confronto":"",
+		"url_transmissao":""
+	},
+	"scout":{"CA":2,"FC":11,"FD":2,"FF":1,"FS":7,"PE":24,"RB":11,"SG":1}}
+
+],
+
+"clubes":{
+		
+	"284":{
+	"id":284,
+	"nome":"Grêmio",
+	"abreviacao":"GRE",
+	"posicao":2,
+	"escudos":{
+		"60x60":"https://s.glbimg.com/es/sde/f/equipes/2014/04/14/gremio_60x60.png",
+		"45x45":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/gremio_45x45.png",
+		"30x30":"https://s.glbimg.com/es/sde/f/equipes/2013/12/16/gremio_30x30.png"
+		}
+	},
+},
+
+"posicoes":{
+	"1":{"id":1,"nome":"Goleiro","abreviacao":"gol"},
+	"2":{"id":2,"nome":"Lateral","abreviacao":"lat"},
+	"3":{"id":3,"nome":"Zagueiro","abreviacao":"zag"},
+	"4":{"id":4,"nome":"Meia","abreviacao":"mei"},
+	"5":{"id":5,"nome":"Atacante","abreviacao":"ata"},
+	"6":{"id":6,"nome":"Técnico","abreviacao":"tec"}
+},
+
+"status":{
+	"2":{"id":2,"nome":"Dúvida"},
+	"3":{"id":3,"nome":"Suspenso"},
+	"5":{"id":5,"nome":"Contundido"},
+	"6":{"id":6,"nome":"Nulo"},
+	"7":{"id":7,"nome":"Provável"}
+},
+
+"time":{
+	"time_id":1031627,
+	"clube_id":267,
+	"esquema_id":3,
+	"cadun_id":35981038,
+	"facebook_id":10152370829821303,
+	"foto_perfil":"https://graph.facebook.com/v2.2/10152370829821303/picture?width=100\u0026height=100",
+	"nome":"A A Santa Monica",
+	"nome_cartola":"Camilo",
+	"slug":"a-a-santa-monica",
+	"tipo_escudo":2,
+	"cor_fundo_escudo":"063780",
+	"cor_borda_escudo":"000000",
+	"cor_primaria_estampa_escudo":"ffffff",
+	"cor_secundaria_estampa_escudo":"063780",
+	"url_escudo_svg":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/escudo/003598103820160506223045",
+	"url_escudo_png":"https://s2.glbimg.com/cuKbkskDSpwNMn3bOPHygdFPEzA=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/escudo/003598103820160506223045",
+	"url_camisa_svg":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/camisa/003598103820160506223045",
+	"url_camisa_png":"https://s2.glbimg.com/7wtgni5gOebWdSGdvR7fWEmqlXg=/https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/svg/camisa/003598103820160506223045",
+	"url_escudo_placeholder_png":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/escudo.png",
+	"url_camisa_placeholder_png":"https://s3.glbimg.com/v1/AUTH_58d78b787ec34892b5aaa0c7a146155f/placeholder/camisa.png",
+	"tipo_estampa_escudo":2,
+	"tipo_adorno":1,
+	"tipo_camisa":1,
+	"tipo_estampa_camisa":3,
+	"cor_camisa":"063780",
+	"cor_primaria_estampa_camisa":"ffffff",
+	"cor_secundaria_estampa_camisa":"000000",
+	"assinante":false,
+	"cadastro_completo":true,
+	"patrocinador1_id":62,
+	"patrocinador2_id":63
+},
+
+"patrimonio":117.63,"esquema_id":4,"pontos":50.029998779296875,"valor_time":114.19,"rodada_atual":6}';
