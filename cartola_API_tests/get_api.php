@@ -21,8 +21,7 @@ $url = "https://api.cartolafc.globo.com/atletas/mercado";
 }
 */
 
-
-$url = './CARTOLA/status.txt';
+//$url = './status.txt';
 
 
 $c = curl_init();
