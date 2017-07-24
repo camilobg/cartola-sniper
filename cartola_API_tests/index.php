@@ -29,10 +29,15 @@
 
 
 <br><br><br>
-<a href="./get_api.php">API JSON</a>
+<a href="./testes_json.php">JSON OK!</a>
 <br><br><br>
 
 <a href="./aasantamonica.php">A A SANTA MONICA</a>
+<br><br><br>
+
+<a href="./meu_time_status.php">STATUS_PARCIAIS</a>
+
+
 
  
  </body>
