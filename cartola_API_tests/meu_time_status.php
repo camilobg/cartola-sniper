@@ -1,8 +1,84 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
  <head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Insert a description here">
+	<meta name="keywords" content="Insert keywords here">
+	<meta name="author" content="Camilo B Groberio">
+
+
   <title>PHP MEU TIME STATUS PARCIAIS</title>
+
+      <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>
+table{
+    border: 0px solid black;
+	border-collapse: separate;
+  	border-spacing: 0 3px;
+  	margin-top: -3px;
+}
+
+
+th, td {
+    padding: 3px;
+	color: white;
+    text-shadow: 1px 0px 0px black, 
+                 -1px 0px 0px black, 
+                 0px 1px 0px black, 
+                 0px -1px 0px black;
+	
+    font-weight: bold;
+	font-size: 18px;
+
+}
+
+td.pts{
+	background-color: #cdcdcd;
+	text-align: center;
+	text-shadow: 0px 0px 0px white, 
+                 0px 0px 0px white, 
+                 0px 0px 0px white, 
+                 0px 0px 0px white;
+	
+    font-weight: bold;
+	font-size: 14px;
+}
+
+td.time{
+
+	text-shadow: 0px 0px 0px white, 
+                 0px 0px 0px white, 
+                 0px 0px 0px white, 
+                 0px 0px 0px white;
+	
+	color: black;
+    font-weight: bold;
+	font-size: 16px;
+}
+
+
+
+</style>
+
  </head>
  <body>
+
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
  
  
  <?php 
@@ -64,7 +140,6 @@ else{
 //--------------------------------------------------------
 // status_mercado:1 - ABERTO
 // status_mercado:2 - FECHADO
-// status_mercado:3 - 
 // status_mercado:3 - MANUTENCAO
 
 
@@ -78,18 +153,31 @@ $time = $AA_SANTA_MONICA['time'];
 
 //--------------------------------------------------------
 // MOSTRANDO AS INFO DO TIME DO CARTOLA
-echo "<h2>" . $time['nome'] . "</h2>";
 
-echo  "NOME DO TIME:" . $time['nome'];
-echo '<br>';
-echo "NOME DO CARTOLA:" . $time['nome_cartola'];
-echo '<br>';
-echo "CARTOLETAS: $" . number_format($AA_SANTA_MONICA['valor_time'], 2, ',', '.'); 
-echo '<br><br>';
-echo "<img src='" . $time[url_escudo_png] 	. "' alt='escudo' style='width:50px;height:50px;'> ";
-echo "<img src='" . $time[foto_perfil] 		. "' alt='foto' style='width:50px;height:50px;'> ";
-echo '<br>';
-echo "<hr>";
+echo "<h1> PONTUAÇÃO PARCIAL DA RODADA  </h1>";
+
+echo "<table border='0' style='width:30%' cellspacing='0' pading='0' >";
+
+	echo "<tr>";
+		echo "<td class='time' align='center'>";
+			echo "<img src='" . $time[url_escudo_png] 	. "' alt='escudo' style='width:90px;height:90px;'> ";
+		echo "</td>";
+
+		echo "<td class='time'align='top'>";
+			echo $time['nome'] . "</br>";
+			echo $time['nome_cartola']. "</br>";
+			echo "slug: " . $time['slug'];
+
+		echo "</td>";
+
+	echo "</tr>";
+echo "</table>";
+
+
+//echo "CARTOLETAS: $" . number_format($time['valor_time'], 2, ',', '.'); 
+//echo "<img src='" . $time[foto_perfil] 		. "' alt='foto' style='width:50px;height:50px;'> ";
+//echo '<br>';
+//echo "<hr>";
 //--------------------------------------------------------/----------------------------------------------------
 
 
@@ -152,7 +240,10 @@ function parciais_time_rodada ($time_cartola_json, $parciais_rodada_json)
 	
 	//--------------------------------------------------------
 	//ORDENANDO A ESCALAÇÃO POR ORDEM CRESCENTE DE POSIÇÃO_ID
-	usort($atletas, function($a, $b) { return $a['posicao_id'] <=> $b['posicao_id'];} );
+	usort($atletas, function($a, $b) { 
+		return $a['posicao_id'] <=> $b['posicao_id'];
+		} 
+	);
 	 
 	//ORDENANDO AS PARCIAIS POR ORDEM ALFABETICA
 	usort($parciais, function($a, $b) { return $a['apelido'] <=> $b['apelido'];} );
@@ -162,15 +253,15 @@ function parciais_time_rodada ($time_cartola_json, $parciais_rodada_json)
 	$parciais = array_values($parciais);
 	//--------------------------------------------------------
 
-	echo "<h2> PONTUAÇÃO PARCIAL DA RODADA  </h2>";
+	echo "<table border='0' style='width:45%' cellspacing='0' pading='10'>";
 
-	echo "<table border='0' style='width:30%' cellspacing='0' pading='10'>";
-
-	echo "<tr align='center'>"; 
+	//echo "<tr align='center'>"; 
+	echo "<tr>"; 
 	echo "<th> </th>";
-	echo "<th style='width:50%'> </th>";		
-	echo "<th style='width:0%'>  </th>";
+	echo "<th style='width:30%'> </th>";
+	//echo "<th style='width:0%'>  </th>";
 	echo "<th style='width:15%'> </th>";
+	echo "<th style='width:110%'> </th>";
 	echo "</tr>";
 	
 	$time_pontuacao_parcial = 0;
@@ -180,12 +271,41 @@ function parciais_time_rodada ($time_cartola_json, $parciais_rodada_json)
 	
 		$atleta_pontuacao_parcial = 0;
 		
+		$color_player='#FFFFFF';
 		$bgcolor_jogou='#E0E0E0'; 
 		$color_pts = '#000000';
+		$color_pos = '#FFFFFF';
 											
-		$atleta_escudo_clube_30 = $clubes[$atleta[clube_id]][escudos]['30x30'];
+		$atleta_escudo_clube_30 = $clubes[$atleta[clube_id]][escudos]['45x45'];
 		$atleta_apelido = $atleta[apelido];
-		$atleta_posicao_abrv = strtoupper($posicoes[$atleta[posicao_id]][abreviacao]);										
+		$atleta_posicao_abrv = strtoupper($posicoes[$atleta[posicao_id]][abreviacao]);
+
+		switch ($atleta[posicao_id]){
+			case 1: //goleiro
+				$color_pos = '#9966ff';
+				break;
+
+			case 2: //lateral
+				$color_pos = '#00e355';
+				break;	
+
+			case 3: //zagueiro
+				$color_pos = '#00e355';
+				break;
+			
+			case 4: //meia
+				$color_pos = '#ffdd00';
+				break;
+			
+			case 5: //atacante
+				$color_pos = '#fb7ca8';
+				break;
+			
+			case 6://tecnico
+				$color_pos = GRAY;
+				break;
+		}
+
 				
 		$atleta_na_array = array_search($atleta[apelido], array_column($parciais, 'apelido'));
 		$atleta_parcial = $parciais[$atleta_na_array];
@@ -199,11 +319,98 @@ function parciais_time_rodada ($time_cartola_json, $parciais_rodada_json)
 			if ($atleta_pontuacao_parcial < 0)	$color_pts = '#FF0000';
 		}
 		
-		echo "<tr align='center' bgcolor='" .$bgcolor_jogou."'>";	
+
+		echo "<tr bgcolor='" .$color_pos."'>";	
 		echo "<td> <img src='" . $atleta_escudo_clube_30 ."' style='width:30px;height:30px;'> </td>";
 		echo "<td style='width:50%'>" . $atleta_apelido . "</td>";		
-		echo "<td>" . $atleta_posicao_abrv . "</td>";
-		echo "<td> <font color ='" . $color_pts . "'>" . $atleta_pontuacao_parcial . "</td>";
+		//echo "<td>" . $atleta_posicao_abrv . "</td>";
+		echo "<td class='pts'> <font color ='" . $color_pts . "'>" . $atleta_pontuacao_parcial . "</td>";
+
+
+		echo "<td class='pts'>";
+
+			if ($atleta_parcial[scout][PE] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][PE] . "PE";
+			}
+
+			if ($atleta_parcial[scout][FC] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][FC] . "FC";
+			}
+
+			if ($atleta_parcial[scout][I] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][I] . "I";
+			}
+
+			if ($atleta_parcial[scout][CA] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][CA] . "CA";
+			}
+
+			if ($atleta_parcial[scout][CV] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][CV] . "CV";
+			}
+
+			if ($atleta_parcial[scout][PP] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][PP] . "PP";
+			}
+
+			if ($atleta_parcial[scout][GC] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][GC] . "GC";
+			}
+
+			if ($atleta_parcial[scout][GS] != null){
+				echo " <font color ='RED'> " . $atleta_parcial[scout][GS] . "GS";
+			}
+			
+			echo "<br>";
+
+			if ($atleta_parcial[scout][FS] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][FS] . "FS";
+			}
+
+			if ($atleta_parcial[scout][RB] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][RB] . "RB";
+			}
+
+			if ($atleta_parcial[scout][FF] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][FF] . "FF";
+			}
+
+			if ($atleta_parcial[scout][FD] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][FD] . "FD";
+			}
+
+			if ($atleta_parcial[scout][FT] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][FT] . "FT";
+			}
+
+			if ($atleta_parcial[scout][A] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][A] . "A";
+			}
+
+			if ($atleta_parcial[scout][G] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][G] . "G";
+			}
+
+			if ($atleta_parcial[scout][SG] != null){
+				echo " <font color ='BLUE'> SG";
+			}
+
+			if ($atleta_parcial[scout][DD] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][DD] . "DD";
+			}
+
+			if ($atleta_parcial[scout][DP] != null){
+				echo " <font color ='BLUE'> " . $atleta_parcial[scout][DP] . "DP";
+			}
+
+
+			echo "</td>";
+
+
+
+
+
+
 		echo "</tr>";
 	}
 	
